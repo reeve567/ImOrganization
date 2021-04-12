@@ -160,7 +160,8 @@ suspend fun getGameFiles(
 				}
 				return GameFiles(convertName(archive.name, config), newest, null, icon, sevenZFile, gameDir)
 			}
-			"rar" -> {
+			// rar files
+			"kkkk" -> {
 				println(archive.name)
 				closeable = Archive(NativeStorage(archive))
 				

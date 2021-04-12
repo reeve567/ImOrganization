@@ -14,7 +14,7 @@ import java.nio.file.Files
 import java.util.logging.Level
 
 class Main(location: String?) {
-	private var baseLocation = File("D:\\")
+	private var baseLocation = File("E:\\")
 	private var configFile: File? = null
 	private var _config: Config? = null
 	val config: Config
